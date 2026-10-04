@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Huntle — Daten löschen / Delete data</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --text: #1a1a1a;
+    --text-secondary: #4a4a4a;
+    --accent: #1B4332;
+    --border: #e5e5e5;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14181a;
+      --text: #f0f0f0;
+      --text-secondary: #b8b8b8;
+      --accent: #6fae8c;
+      --border: #2a2f31;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 20px 80px;
+  }
+  header {
+    margin-bottom: 40px;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 24px;
+  }
+  header h1 {
+    margin: 0 0 4px;
+    font-size: 28px;
+    color: var(--accent);
+  }
+  header p {
+    margin: 0;
+    color: var(--text-secondary);
+    font-size: 14px;
+  }
+  h2 {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 8px;
+    color: var(--accent);
+  }
+  p {
+    color: var(--text-secondary);
+    margin: 8px 0;
+  }
+  section.lang {
+    margin-bottom: 60px;
+  }
+  .lang-label {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--accent);
+    border: 1px solid var(--accent);
+    border-radius: 999px;
+    padding: 4px 12px;
+    margin-bottom: 16px;
+  }
+  a { color: var(--accent); }
+  footer {
+    margin-top: 60px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    font-size: 13px;
+    color: var(--text-secondary);
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Huntle</h1>
+    <p>Einzelne Daten löschen · Delete individual data</p>
+  </header>
+
+  <section class="lang" lang="de">
+    <span class="lang-label">Deutsch</span>
+
+    <h2>Einzelne Daten in der App löschen</h2>
+    <p>Du kannst deine Daten direkt in der Huntle-App löschen, ohne dein Konto zu löschen. Gelöscht wird sofort und endgültig, sowohl auf deinem Gerät als auch in der Cloud (Ausnahme: Papierkorb für Reviere, siehe unten). Die Aktionen findest du so:</p>
+    <ul>
+      <li><strong>Jagden:</strong> beendete Jagd öffnen und das Papierkorb-Symbol antippen. Dabei werden auch Ereignisse, Fotos, GPS-Strecke und geteilter Standort gelöscht. Einzelne Einträge der Zeitleiste löschst du mit langem Drücken.</li>
+      <li><strong>Beiträge:</strong> Beitrag öffnen und das Papierkorb-Symbol antippen. Der Beitrag und seine Bilder werden für alle entfernt.</li>
+      <li><strong>Chat-Nachrichten:</strong> eigene Nachricht lange gedrückt halten, oder im Chat oben das Papierkorb-Symbol für alle deine Nachrichten in dieser Unterhaltung. Die Nachrichten werden für dich und die andere Person entfernt; im Chat bleibt der Hinweis „Nachricht gelöscht."</li>
+      <li><strong>Reviere und POIs:</strong> Revier bzw. POI öffnen und löschen. Die Cloud-Daten werden sofort entfernt. Eine Kopie bleibt 30 Tage im Papierkorb auf deinem Gerät (Einstellungen), damit du sie wiederherstellen kannst, und wird danach gelöscht. Im Papierkorb kannst du sie auch sofort endgültig löschen. Kontrollen löschst du in der Kontrollhistorie des POI mit langem Drücken, Aufgaben ebenfalls mit langem Drücken.</li>
+      <li><strong>Inventar:</strong> Waffen, Munition und Optik inklusive Fotos in der jeweiligen Liste löschen.</li>
+      <li><strong>Profil:</strong> Dokumente, Hunde, Notfallkontakte, erhaltene Referenzen (lang drücken) und das Profilfoto („Foto entfernen" beim Bearbeiten des Profils) löschen. Adresse, Telefonnummer und weitere Angaben kannst du im Profil ändern oder leeren.</li>
+      <li><strong>Hilfeanfragen:</strong> beendete oder abgebrochene Hilfeanfragen in den Details löschen (inklusive Nachricht und Standort).</li>
+      <li><strong>Verbindungen und Gruppen:</strong> Verbindungen entfernst du über das Symbol „Verbunden" beim Hunter. Von dir erstellte Gruppen löschst du als Administrator, Gruppen verlässt du in der Gruppenansicht.</li>
+      <li><strong>Gruppenjagden:</strong> selbst erstellte Gruppenjagden löschst du für alle Teilnehmer (inklusive Teilnehmer, Stände, Sichtungen und Schüsse). Als Teilnehmer kannst du eine Gruppenjagd verlassen und eigene Sichtungen und Schüsse (lang drücken) löschen.</li>
+    </ul>
+
+    <h2>Daten, die du nicht selbst löschen kannst</h2>
+    <p>Für alles andere schreibe von der mit deinem Konto verknüpften E-Mail-Adresse an <a href="mailto:jannik.neuma+huntle@gmail.com">jannik.neuma+huntle@gmail.com</a> (Betreff: „Huntle Daten löschen") und nenne, was gelöscht werden soll. Wir bearbeiten die Anfrage innerhalb eines Monats.</p>
+
+    <h2>Was bleibt erhalten</h2>
+    <ul>
+      <li>Bei gelöschten Chat-Nachrichten bleibt ein Platzhalter ohne Text. Deine Unterhaltung mit der anderen Person (Teilnehmer und Zeitpunkt der letzten Aktivität) bleibt bestehen, ebenso die Nachrichten der anderen Person.</li>
+      <li>Meldungen von Nutzern zu Inhalten (Missbrauchsmeldungen) können zur Moderation aufbewahrt werden.</li>
+      <li>Wenn du eine Gruppenjagd nur verlässt, bleiben deine dortigen Meldungen bei der Gruppenjagd, bis du sie löschst oder der Ersteller die Gruppenjagd löscht.</li>
+      <li>Technische Absturzberichte verbleiben gemäß den Aufbewahrungseinstellungen des Fehlerberichts-Dienstes für einen begrenzten Zeitraum, und Restkopien in Backups des Cloud-Anbieters werden im üblichen Backup-Zyklus überschrieben.</li>
+      <li>Daten, die nur auf deinem Gerät liegen (z. B. Offline-Karten), entfernst du durch Deinstallieren der App oder „App zurücksetzen".</li>
+    </ul>
+
+    <h2>Gesamtes Konto löschen</h2>
+    <p>Alle Daten und dein Konto löschst du unter <a href="../delete-account/">Konto löschen</a>.</p>
+  </section>
+
+  <section class="lang" lang="en">
+    <span class="lang-label">English</span>
+
+    <h2>Delete individual data in the app</h2>
+    <p>You can delete your data directly in the Huntle app without deleting your account. Deletion is immediate and permanent, both on your device and in the cloud (exception: the trash for territories, see below). Here is where to find each action:</p>
+    <ul>
+      <li><strong>Hunts:</strong> open a finished hunt and tap the trash icon. This also deletes its events, photos, GPS track and shared location. Delete a single timeline entry with a long press.</li>
+      <li><strong>Posts:</strong> open the post and tap the trash icon. The post and its images are removed for everyone.</li>
+      <li><strong>Chat messages:</strong> long-press one of your own messages, or tap the trash icon at the top of the chat to delete all of your messages in that conversation. The messages are removed for you and the other person; a "Message deleted." notice remains in the chat.</li>
+      <li><strong>Territories and POIs:</strong> open the territory or POI and delete it. The cloud data is removed immediately. A copy stays in the trash on your device (Settings) for 30 days so you can restore it, and is deleted afterwards; you can also delete it permanently from the trash right away. Delete checks in the POI's check history and tasks with a long press.</li>
+      <li><strong>Inventory:</strong> delete weapons, ammunition and optics, including their photos, from the respective list.</li>
+      <li><strong>Profile:</strong> delete documents, dogs, emergency contacts, received references (long press) and your profile photo ("Remove photo" when editing your profile). You can change or clear your address, phone number and other details in your profile.</li>
+      <li><strong>Help requests:</strong> delete finished or cancelled help requests from their detail screen, including the message and location.</li>
+      <li><strong>Connections and groups:</strong> remove a connection with the "Connected" badge on a hunter. Delete groups you created as an administrator, and leave groups from the group screen.</li>
+      <li><strong>Group hunts:</strong> delete group hunts you created for all participants (including participants, stands, sightings and shots). As a participant you can leave a group hunt and delete your own sightings and shots (long press).</li>
+    </ul>
+
+    <h2>Data you can't delete yourself</h2>
+    <p>For anything else, email <a href="mailto:jannik.neuma+huntle@gmail.com">jannik.neuma+huntle@gmail.com</a> from the address linked to your account (subject: "Huntle data deletion") and say what should be deleted. We handle requests within one month.</p>
+
+    <h2>What is kept</h2>
+    <ul>
+      <li>Deleted chat messages leave a placeholder without any text. Your conversation with the other person (participants and time of last activity) remains, as do the other person's messages.</li>
+      <li>Reports by users about content (abuse reports) may be kept for moderation.</li>
+      <li>If you only leave a group hunt, your reports there stay with it until you delete them or the creator deletes the group hunt.</li>
+      <li>Technical crash reports are retained for a limited period according to the error-reporting service's retention settings, and residual copies in the cloud provider's backups are overwritten in its normal backup cycle.</li>
+      <li>Data that exists only on your device (for example offline maps) is removed by uninstalling the app or using "Reset app".</li>
+    </ul>
+
+    <h2>Delete your whole account</h2>
+    <p>To delete your account and all data, see <a href="../delete-account/">Delete account</a>.</p>
+  </section>
+
+  <footer>
+    Huntle · <a href="../">Datenschutz / Privacy Policy</a> · <a href="../delete-account/">Konto löschen / Delete account</a> · <a href="https://github.com/Noimi/huntle">github.com/Noimi/huntle</a>
+  </footer>
+</div>
+</body>
+</html>
