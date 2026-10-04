@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Huntle — Daten löschen / Delete data</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --text: #1a1a1a;
+    --text-secondary: #4a4a4a;
+    --accent: #1B4332;
+    --border: #e5e5e5;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14181a;
+      --text: #f0f0f0;
+      --text-secondary: #b8b8b8;
+      --accent: #6fae8c;
+      --border: #2a2f31;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 20px 80px;
+  }
+  header {
+    margin-bottom: 40px;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 24px;
+  }
+  header h1 {
+    margin: 0 0 4px;
+    font-size: 28px;
+    color: var(--accent);
+  }
+  header p {
+    margin: 0;
+    color: var(--text-secondary);
+    font-size: 14px;
+  }
+  h2 {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 8px;
+    color: var(--accent);
+  }
+  p {
+    color: var(--text-secondary);
+    margin: 8px 0;
+  }
+  section.lang {
+    margin-bottom: 60px;
+  }
+  .lang-label {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--accent);
+    border: 1px solid var(--accent);
+    border-radius: 999px;
+    padding: 4px 12px;
+    margin-bottom: 16px;
+  }
+  a { color: var(--accent); }
+  footer {
+    margin-top: 60px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    font-size: 13px;
+    color: var(--text-secondary);
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Huntle</h1>
+    <p>Einzelne Daten löschen · Delete some of your data</p>
+  </header>
+
+  <section class="lang" lang="de">
+    <span class="lang-label">Deutsch</span>
+
+    <h2>Einzelne Daten in der App löschen</h2>
+    <p>Du kannst viele deiner Daten direkt in der Huntle-App löschen, ohne dein Konto zu löschen. Öffne den jeweiligen Eintrag und wähle „Löschen":</p>
+    <ul>
+      <li><strong>Beiträge:</strong> Beitrag öffnen und das Papierkorb-Symbol antippen. Der Beitrag und seine Bilder werden für alle entfernt.</li>
+      <li><strong>Chat-Nachrichten:</strong> eigene Nachricht lange gedrückt halten und „Löschen" bestätigen. Die Nachricht wird für dich und die andere Person entfernt; im Chat bleibt der Hinweis „Nachricht gelöscht." sichtbar.</li>
+      <li><strong>Reviere und POIs:</strong> Eintrag öffnen und löschen. Gelöschte Reviere und POIs landen 30 Tage im Papierkorb (Einstellungen) und können dort wiederhergestellt werden.</li>
+      <li><strong>Inventar:</strong> Waffen, Munition und Optik löschen.</li>
+      <li><strong>Profil:</strong> Dokumente, Hunde, Notfallkontakte und Referenzen löschen.</li>
+      <li><strong>Gruppen:</strong> von dir erstellte Gruppen löschen.</li>
+    </ul>
+
+    <h2>Daten, die du nicht selbst löschen kannst</h2>
+    <p>Für alles andere, zum Beispiel Jagden und Jagdereignisse, schreibe von der mit deinem Konto verknüpften E-Mail-Adresse an <a href="mailto:jannik.neuma+huntle@gmail.com">jannik.neuma+huntle@gmail.com</a> (Betreff: „Huntle Daten löschen") und nenne, was gelöscht werden soll. Wir bearbeiten die Anfrage innerhalb eines Monats.</p>
+
+    <h2>Was bleibt erhalten</h2>
+    <p>Bei gelöschten Chat-Nachrichten bleibt ein leerer Platzhalter ohne Text erhalten. Meldungen zu Inhalten (Missbrauchsmeldungen) können zur Moderation aufbewahrt werden. Restkopien in Backups des Cloud-Anbieters werden im üblichen Backup-Zyklus überschrieben.</p>
+
+    <h2>Gesamtes Konto löschen</h2>
+    <p>Alle Daten und dein Konto löschst du unter <a href="../delete-account/">Konto löschen</a>.</p>
+  </section>
+
+  <section class="lang" lang="en">
+    <span class="lang-label">English</span>
+
+    <h2>Delete individual data in the app</h2>
+    <p>You can delete much of your data directly in the Huntle app without deleting your account. Open the item and choose "Delete":</p>
+    <ul>
+      <li><strong>Posts:</strong> open the post and tap the trash icon. The post and its images are removed for everyone.</li>
+      <li><strong>Chat messages:</strong> long-press one of your own messages and confirm "Delete". The message is removed for you and the other person; a "Message deleted." notice remains in the chat.</li>
+      <li><strong>Territories and POIs:</strong> open the item and delete it. Deleted territories and POIs stay in the trash (Settings) for 30 days and can be restored there.</li>
+      <li><strong>Inventory:</strong> delete weapons, ammunition and optics.</li>
+      <li><strong>Profile:</strong> delete documents, dogs, emergency contacts and references.</li>
+      <li><strong>Groups:</strong> delete groups you created.</li>
+    </ul>
+
+    <h2>Data you can't delete yourself</h2>
+    <p>For anything else, for example hunts and hunt events, email <a href="mailto:jannik.neuma+huntle@gmail.com">jannik.neuma+huntle@gmail.com</a> from the address linked to your account (subject: "Huntle data deletion") and say what should be deleted. We handle requests within one month.</p>
+
+    <h2>What is kept</h2>
+    <p>Deleted chat messages leave an empty placeholder without any text. Reports about content (abuse reports) may be kept for moderation. Residual copies in the cloud provider's backups are overwritten in its normal backup cycle.</p>
+
+    <h2>Delete your whole account</h2>
+    <p>To delete your account and all data, see <a href="../delete-account/">Delete account</a>.</p>
+  </section>
+
+  <footer>
+    Huntle · <a href="../">Datenschutz / Privacy Policy</a> · <a href="../delete-account/">Konto löschen / Delete account</a> · <a href="https://github.com/Noimi/huntle">github.com/Noimi/huntle</a>
+  </footer>
+</div>
+</body>
+</html>
